@@ -1,10 +1,10 @@
-/* Manejo de data */
+const dataResult = window.RICKANDMORTY.results;
 
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
+let filter = (dataResult, select) => {
+  let filtro = dataResult.filter(element => {
+    return element.status === select;
+  })
 
-const example = () => {
-  return 'example';
-};
-
-window.example = example;
+return filtro; 
+}
+window.filter = filter;

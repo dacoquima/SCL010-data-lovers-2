@@ -1,3 +1,4 @@
+
 const RICKANDMORTY = {
   "info": {
     "count": 493,
@@ -9374,4 +9375,6 @@ const RICKANDMORTY = {
     "url": "https://rickandmortyapi.com/api/character/493",
     "created": "2018-05-22T17:51:07.373Z"
   }]
-}
+} 
+
+window.RICKANDMORTY = RICKANDMORTY;
