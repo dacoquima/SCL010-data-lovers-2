@@ -1,7 +1,6 @@
-
 const data = window.RICKANDMORTY.results;
 
-for (let i = 487; i < data.length; i++) {
+for (let i = 0; i < data.length; i++) {
 
 //CARD
 card = document.createElement("div");
